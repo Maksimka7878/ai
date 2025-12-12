@@ -1,0 +1,35 @@
+# Секретные файлы - НИКОГДА не коммитить!
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.log
+*.tmp
+*.temp
+
+# Тестовые файлы с ключами
+test_api_key.py
+test_all_keys.py
+
+# Выходные файлы (опционально)
+# leads_processed.xlsx
